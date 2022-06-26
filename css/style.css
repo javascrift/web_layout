@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+section{
+    padding: 75px 0px;
+}
+.underline{
+    border-bottom: 2px solid rgba(56, 52, 52, 0.295);
+    display: block;
+    width: 5%;
+    margin: 10px auto;
+
+}
+
+
+/*.......header part.......*/
+header {
+     background-color: rgb(168, 87, 192);
+     color: white;
+     width: 100%;
+     text-align: center;
+     
+     
+}
+nav {
+    width: 100%;
+    padding: 10px 0px;
+}
+.logo-part {
+    width: 50%;
+    float: left;
+    text-align: start;
+}
+.menu-part {
+    width: 50%;
+    float: left;
+}
+.menu-part ul{
+    padding: 15px 0px;
+
+}
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+.menu-part a{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.menu-part a:hover{
+    background-color: #00000075;
+    padding: 10px;
+    border-radius: 30%;
+
+}
+.header-writing-part {
+    width: 100%;
+    
+}
+.header-writing-part h1 {
+    margin: 150px 0px;
+
+}
+.header-writing-part a button{
+    width: 200px;
+    padding: 10px;
+    margin: 20px 0px;
+    background-color: chocolate;
+    color: antiquewhite;
+    border-radius: 5%;
+}
+.header-writing-part a button:hover{
+    background-color: crimson;
+    color: black;
+
+}
+/*service section */
+#service {
+    width: 100%; 
+   background-color: aqua;
+    text-align: center; 
+   
+}
+.service-writing-part{
+    width: 100%;
+    
+}
+.service-box-part{
+    width: 100%;
+  
+
+}
+.service-box{
+    width: 25%;
+    float: left;
+
+}
